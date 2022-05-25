@@ -34,9 +34,6 @@
     directives: {
       mdbRipple
     },
-    props: {
-      msg: String
-    },
     data: function () {
       return {
         fullName: '',

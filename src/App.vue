@@ -9,7 +9,9 @@
     name: 'App',
     components: {
       HomePage
-    },
+    },mounted() {
+      document.querySelector('title').textContent = document.getElementById('fullName').innerText
+    }
   }
 </script>
 

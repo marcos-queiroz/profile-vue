@@ -1,6 +1,6 @@
 
 <template>
-  <MDBCard class="mt-5">
+  <MDBCard class="mt-5 mb-6">
     <MDBCardBody>
       <MDBCardTitle>Skills</MDBCardTitle> 
       <template v-for="(skill, key) in skills" :key="key">
@@ -22,9 +22,6 @@
         MDBCard,
         MDBCardTitle,
         MDBCardBody,
-      },
-      props: {
-        msg: String
       },
       data: function () {
         return {

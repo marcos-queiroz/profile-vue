@@ -38,9 +38,6 @@
       MDBAccordionItem,
       MDBBadge,
     },
-    props: {
-      msg: String
-    },
     data: function () {
       return {
         works: []

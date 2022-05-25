@@ -27,9 +27,6 @@
       WorksSection,
       SkillsSection,
     },
-    props: {
-      msg: String
-    },
   };
 </script>
 
